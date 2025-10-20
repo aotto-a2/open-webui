@@ -294,7 +294,7 @@
 						if ($settings?.notificationEnabled ?? false) {
 							new Notification(`${title} • ${$WEBUI_NAME}`, {
 								body: content,
-								icon: `${WEBUI_BASE_URL}/static/favicon.png`
+								icon: `${WEBUI_BASE_URL}/static/a2-labs-icon.png`
 							});
 						}
 					}
@@ -443,7 +443,7 @@
 					if ($settings?.notificationEnabled ?? false) {
 						new Notification(`${data?.user?.name} (#${event?.channel?.name}) • ${$WEBUI_NAME}`, {
 							body: data?.content,
-							icon: data?.user?.profile_image_url ?? `${WEBUI_BASE_URL}/static/favicon.png`
+							icon: data?.user?.profile_image_url ?? `${WEBUI_BASE_URL}/static/a2-labs-icon.png`
 						});
 					}
 				}
@@ -693,7 +693,7 @@
 
 <svelte:head>
 	<title>{$WEBUI_NAME}</title>
-	<link crossorigin="anonymous" rel="icon" href="{WEBUI_BASE_URL}/static/favicon.png" />
+	<link crossorigin="anonymous" rel="icon" href="{WEBUI_BASE_URL}/static/a2-labs-icon.png" />
 
 	<meta name="apple-mobile-web-app-title" content={$WEBUI_NAME} />
 	<meta name="description" content={$WEBUI_NAME} />

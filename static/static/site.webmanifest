@@ -3,16 +3,16 @@
   "short_name": "A2 Labs",
   "icons": [
     {
-      "src": "/static/web-app-manifest-192x192.png",
+      "src": "/static/a2-labs-icon.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "maskable"
+      "purpose": "any"
     },
     {
-      "src": "/static/web-app-manifest-512x512.png",
+      "src": "/static/a2-labs-icon.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "maskable"
+      "purpose": "any"
     }
   ],
   "theme_color": "#ffffff",
