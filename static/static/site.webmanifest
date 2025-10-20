@@ -1,6 +1,6 @@
 {
-  "name": "Open WebUI",
-  "short_name": "WebUI",
+  "name": "A2 Labs",
+  "short_name": "A2 Labs",
   "icons": [
     {
       "src": "/static/web-app-manifest-192x192.png",
