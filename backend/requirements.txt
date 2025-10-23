@@ -147,3 +147,7 @@ opentelemetry-instrumentation-requests==0.58b0
 opentelemetry-instrumentation-logging==0.58b0
 opentelemetry-instrumentation-httpx==0.58b0
 opentelemetry-instrumentation-aiohttp-client==0.58b0
+
+## Security tooling
+python-nmap==0.7.1
+pyshark==0.6.0
